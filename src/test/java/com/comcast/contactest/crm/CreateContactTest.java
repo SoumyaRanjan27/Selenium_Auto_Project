@@ -33,6 +33,8 @@ public class CreateContactTest {
         driver.findElement(By.xpath("//input[@id=\"ConfirmPassword\"]")).sendKeys("Soumya@1234");
 
         driver.findElement(By.xpath("//input[@id=\"register-button\"]")).click();
+
+        System.out.println("hi");
         // driver.close();
     }
 
